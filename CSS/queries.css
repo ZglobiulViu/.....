@@ -1,0 +1,48 @@
+@media (max-width: 24em) {
+  .huddle__header-container {
+    grid-template-columns: 1fr;
+  }
+  .img-bg-desktop {
+    display: none;
+  }
+  .img-bg-mobile {
+    display: block;
+  }
+  body {
+    overflow-y: visible;
+  }
+  :root {
+    overflow-y: visible;
+  }
+  .huddle__illustration {
+    width: 100%;
+  }
+  .huddle__heading {
+    font-size: 2.4rem;
+  }
+  .huddle__text {
+    font-size: 1.6rem;
+  }
+  .huddle__register-btn {
+    padding: 1rem 8rem;
+    margin-bottom: 6.4rem;
+  }
+
+  .huddle__header-container {
+    text-align: center;
+  }
+  .huddle-landing-page {
+    height: 100%;
+    padding: 2.8rem;
+  }
+  .huddle__social-icons-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .huddle__logo {
+    width: 12.8rem;
+  }
+  .huddle__header {
+    width: 100%;
+  }
+}

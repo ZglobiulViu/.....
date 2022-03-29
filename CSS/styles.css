@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body {
+  background-color: hsl(257, 40%, 49%);
+  overflow-x: hidden;
+  font-family: "Open Sans";
+}
+.img-bg-desktop {
+  position: absolute;
+  z-index: -1;
+  top: -3%;
+  left: 5%;
+}
+.img-bg-mobile {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+.huddle-landing-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.huddle__logo {
+  margin-bottom: 6.4rem;
+}
+.huddle__header {
+  width: 90%;
+}
+.huddle__header-container {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  gap: 4.4rem;
+}
+.huddle__illustration {
+  width: 90%;
+}
+.huddle__description-container {
+  margin-top: 4.8rem;
+}
+.huddle__heading {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 3.6rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin-bottom: 2.4rem;
+}
+.huddle__text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+.huddle__register-btn {
+  border: none;
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  padding: 1.6rem 6rem;
+  border-radius: 2.8rem;
+  font-size: 1.6rem;
+  font-family: "Poppins";
+  transition: all 0.3s;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 0.5rem 0.25rem rgba(0, 0, 0, 0.247);
+}
+.huddle__register-btn:active,
+.huddle__register-btn:hover {
+  background: hsl(300, 69%, 71%);
+  color: #fff;
+}
+.huddle__social-icons-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: 6.4rem;
+  gap: 1.6rem;
+}
+
+.huddle__social-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #fff;
+  padding: 0.6rem;
+  border: #fff 1px solid;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.huddle__social-icon:active,
+.huddle__social-icon:hover {
+  color: hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
+}
